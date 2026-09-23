@@ -3,10 +3,10 @@ import React from 'react';
 const Stat = () => {
     return (
 
-        <div className="bg-linear-to-r from-[#4F39F6]  to-[#9514FA] flex w-full flex-col lg:flex-row justify-between items-center px-10 py-5 text-white text-center">
+        <div className="bg-linear-to-r from-[#4F39F6]  to-[#9514FA] flex w-full flex-col lg:flex-row justify-between items-center px-10 py-5 text-white text-center border">
 
             <div className="users">
-                 <h2 className='font-bold text-5xl'>50K +</h2>
+                 <h2 className='font-bold text-5xl text-center'>50K+</h2>
                  <p className='font-semibold text-2xl'>Active Users</p>
             </div>
 

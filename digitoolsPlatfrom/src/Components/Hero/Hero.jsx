@@ -5,11 +5,11 @@ import Stat from './Stat';
 
 const Hero = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Navbar/>
             <Banner/>
             <Stat/>
-            Hello from hero
+        
         </div>
     );
 };
