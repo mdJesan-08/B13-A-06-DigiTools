@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
 
 const ProductCard = ({product ,cartList, setCartList}) => {
-    // setCartList(["hello"]);
-        const [isSelected, setIsSelected] = useState(false);
 
-        // for(let i = 0; i < cartList.length ;i++)
-        // {
-        //     console.log(cartList[i].id);
-        //     if(cartList[i].id === product.id) setIsSelected(true);
-        // }
+    // const [isSelected, setIsSelected] = useState(false);
+    let chipaisSelected = false;
+
+    for(let i = 0; i < cartList.length ;i++)
+    {
+        if(cartList[i].id === product.id) chipaisSelected = true;
+    }
 
 
     const handleButton = () =>
     {
-        setCartList([...cartList, product]);
-        setIsSelected(true);
-        console.log(cartList.length);
+        // setIsSelected(true);
+        setCartList([...cartList, product])
     }
 
     return (
@@ -36,9 +35,9 @@ const ProductCard = ({product ,cartList, setCartList}) => {
                 })
             } */}
            </p>
-           <button className='btn btn-primary rounded-full' disabled={isSelected}
+           <button className='btn btn-primary rounded-full' disabled={chipaisSelected}
             onClick={handleButton}>
-                {isSelected ? "Added to Cart" : "Buy Now"}
+                {chipaisSelected ? "Added to Cart" : "Buy Now"}
            </button>
         </div>
     );

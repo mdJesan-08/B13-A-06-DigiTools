@@ -8,6 +8,10 @@ const CartProducts = ({cartList, setCartList}) => {
         total = total + cartList[i].price;
     }
 
+    const handleButton = () =>
+    {
+        setCartList([]);
+    }
 
     return (
         <div className='flex flex-col gap-7'>
@@ -18,7 +22,7 @@ const CartProducts = ({cartList, setCartList}) => {
                 })
             }
             <h2 className='font-bold text-2xl'>Total : ${total}</h2>
-            <button className='btn btn-lg btn-primary rounded-full'>Proceed to CheckOut</button>
+            <button className='btn btn-lg btn-primary rounded-full' onClick={handleButton}>Proceed to CheckOut</button>
         </div>
     );
 };
