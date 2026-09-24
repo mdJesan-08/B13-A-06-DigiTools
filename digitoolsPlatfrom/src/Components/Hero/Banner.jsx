@@ -6,7 +6,7 @@ const Banner = () => {
         <div className='flex flex-col lg:flex-row justify-center items-center gap-7 mb-7 mt-7'>
 
            {/* description */}
-            <div className="description w-full min-w-0 flex flex-col justify-center gap-3 border ">
+            <div className="description w-full min-w-0 flex flex-col justify-center gap-3 border border-amber-400">
                 <p className='text-2xl bg-violet-300 max-w-full font-bold rounded-full flex flex-col lg:flex-row justify-start items-center gap-1.5 '>
                 <CircleCheckBig />
                 New AI-Powered Tools Available</p>
