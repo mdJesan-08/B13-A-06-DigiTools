@@ -66,7 +66,7 @@ This project was built as my **first React project** and helped me practice:
 ## 🚀 Run Locally
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/mdJesan-08/B13-A-06-DigiTools
 cd DigiTools
 npm install
 npm run dev
