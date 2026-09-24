@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { toast } from "react-toastify";
 const ProductCard = ({product ,cartList, setCartList}) => {
 
     // const [isSelected, setIsSelected] = useState(false);
@@ -14,7 +14,8 @@ const ProductCard = ({product ,cartList, setCartList}) => {
     const handleButton = () =>
     {
         // setIsSelected(true);
-        setCartList([...cartList, product])
+        setCartList([...cartList, product]);
+        toast.success('Item is Added to Cart.');
     }
 
     return (

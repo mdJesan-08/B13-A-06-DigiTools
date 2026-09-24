@@ -4,6 +4,8 @@ import Footer from './Components/Footer/Footer';
 import Hero from './Components/Hero/Hero';
 import { Suspense, useState } from 'react';
 
+import { ToastContainer, toast } from "react-toastify";
+
 const fetchData = async () =>
 {
   const res = await fetch('/data.json');
@@ -24,6 +26,7 @@ function App() {
       </Suspense>
 
       <Footer/>
+      <ToastContainer/>
     </div>
   )
 }

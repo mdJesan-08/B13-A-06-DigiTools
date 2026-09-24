@@ -1,6 +1,8 @@
 import React from 'react';
 import CartCard from './CartCard';
 
+import { toast } from "react-toastify";
+
 const CartProducts = ({cartList, setCartList}) => {
     let total = 0;
 
@@ -11,6 +13,7 @@ const CartProducts = ({cartList, setCartList}) => {
     const handleButton = () =>
     {
         setCartList([]);
+        toast.success('Check Out Completed!');
     }
 
     return (
