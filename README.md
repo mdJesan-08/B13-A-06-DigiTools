@@ -30,7 +30,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - Responsive single-page application
 - Component-based React architecture
@@ -46,7 +46,7 @@
 
 ---
 
-## 🧠 What I Practiced
+##  What I Practiced
 
 This project was built as my **first React project** and helped me practice:
 
@@ -63,7 +63,7 @@ This project was built as my **first React project** and helped me practice:
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 ```bash
 git clone https://github.com/mdJesan-08/B13-A-06-DigiTools
