@@ -9,11 +9,12 @@ const fetchData = async () =>
   const res = await fetch('/data.json');
   return res.json();
 }
+const promisedData = fetchData();
 function App() {
   
 
   const [cartList, setCartList] = useState([]);
-  const promisedData = fetchData();
+
   console.log(promisedData);
   return (
     <div className='container mx-auto'>
