@@ -43,11 +43,6 @@
 
 ---
 
-## 📸 Preview
-
-<p align="center">
-  <img src="./preview.png" alt="DigiTools Preview" width="900">
-</p>
 
 ---
 
