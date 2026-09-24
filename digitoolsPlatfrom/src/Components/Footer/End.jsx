@@ -44,7 +44,7 @@ const End = () => {
                     </div>
                 </div>
             </div>
-            <div class="divider divider-accent"></div>
+            <div className="divider divider-accent"></div>
             <div className="lincense flex justify-between">
                 <p className=''>© 2026 Digitools. All rights reserved.</p>
                 <div className="terms flex justify-between gap-5">

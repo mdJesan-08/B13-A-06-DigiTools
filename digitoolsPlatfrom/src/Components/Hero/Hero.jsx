@@ -3,10 +3,10 @@ import Navbar from './Navbar';
 import Banner from './Banner';
 import Stat from './Stat';
 
-const Hero = () => {
+const Hero = ({cartList}) => {
     return (
         <div className='container mx-auto'>
-            <Navbar/>
+            <Navbar  cartList={cartList} />
             <Banner/>
             <Stat/>
         

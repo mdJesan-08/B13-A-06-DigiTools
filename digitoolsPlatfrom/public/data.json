@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "icon": "📝",
+    "badge": "Best Seller",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "currency": "USD",
+    "billingPeriod": "monthly",
+    "priceSuffix": "/Mo",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "icon": "✏️",
+    "badge": "Popular",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "currency": "USD",
+    "billingPeriod": "one-time",
+    "priceSuffix": "/One-Time",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "icon": "📷",
+    "badge": "New",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "currency": "USD",
+    "billingPeriod": "monthly",
+    "priceSuffix": "/Mo",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "icon": "⚙️",
+    "badge": "Popular",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "currency": "USD",
+    "billingPeriod": "monthly",
+    "priceSuffix": "/Mo",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "icon": "📄",
+    "badge": "New",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "currency": "USD",
+    "billingPeriod": "one-time",
+    "priceSuffix": "/One-Time",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "icon": "💬",
+    "badge": "Best Seller",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "currency": "USD",
+    "billingPeriod": "monthly",
+    "priceSuffix": "/Mo",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Pro",
+    "icon": "🎬",
+    "badge": "Popular",
+    "description": "Create polished videos with ready-made transitions, effects, and editing tools.",
+    "price": 35,
+    "currency": "USD",
+    "billingPeriod": "monthly",
+    "priceSuffix": "/Mo",
+    "features": [
+      "4K video export",
+      "300+ transitions",
+      "Auto captions"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "UI Design Kit",
+    "icon": "🎨",
+    "badge": "Best Seller",
+    "description": "Build beautiful interfaces with reusable components and responsive layouts.",
+    "price": 59,
+    "currency": "USD",
+    "billingPeriod": "one-time",
+    "priceSuffix": "/One-Time",
+    "features": [
+      "1000+ UI components",
+      "Figma compatible",
+      "Light and dark themes"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "AI Voice Studio",
+    "icon": "🎙️",
+    "badge": "New",
+    "description": "Turn your scripts into natural-sounding voiceovers for videos and presentations.",
+    "price": 25,
+    "currency": "USD",
+    "billingPeriod": "monthly",
+    "priceSuffix": "/Mo",
+    "features": [
+      "50+ voice styles",
+      "30+ languages",
+      "Commercial license"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "SEO Growth Toolkit",
+    "icon": "📈",
+    "badge": "Popular",
+    "description": "Research keywords and track your website performance with practical SEO tools.",
+    "price": 45,
+    "currency": "USD",
+    "billingPeriod": "monthly",
+    "priceSuffix": "/Mo",
+    "features": [
+      "Keyword research",
+      "Website audits",
+      "Rank tracking"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Presentation Templates",
+    "icon": "📊",
+    "badge": "New",
+    "description": "Create professional presentations using customizable slides for work and study.",
+    "price": 19,
+    "currency": "USD",
+    "billingPeriod": "one-time",
+    "priceSuffix": "/One-Time",
+    "features": [
+      "500+ slide layouts",
+      "PowerPoint compatible",
+      "Editable charts"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Productivity Planner",
+    "icon": "📅",
+    "badge": "Best Seller",
+    "description": "Organize your tasks, goals, and daily routines with easy-to-use digital planners.",
+    "price": 12,
+    "currency": "USD",
+    "billingPeriod": "one-time",
+    "priceSuffix": "/One-Time",
+    "features": [
+      "Daily and weekly planners",
+      "Goal tracking",
+      "Printable PDF files"
+    ]
+  }
+]
