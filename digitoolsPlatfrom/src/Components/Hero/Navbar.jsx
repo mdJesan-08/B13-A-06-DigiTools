@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = ({ cartList}) => {
     return (
         <div className="navbar bg-base-100 shadow-sm flex justify-between">
-                <div className="flex border border-4">
+                <div className="flex ">
                     <a className="btn btn-ghost text-xl">DigiTools</a>
                 </div>
 
