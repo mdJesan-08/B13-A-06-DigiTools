@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from "react-toastify";
 
 const CartCard = ({product,cartList, setCartList}) => {
 
@@ -8,6 +9,9 @@ const CartCard = ({product,cartList, setCartList}) => {
         console.log(cartList);
         const newCartList = cartList.filter((item) => item.id !== product.id);
         setCartList(newCartList);
+        toast.warn('Item is Removed');
+        
+        
     }
     return (
         <div className='flex justify-between shadow-2xl p-9 rounded-3xl'>
